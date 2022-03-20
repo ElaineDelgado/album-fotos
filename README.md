@@ -17,18 +17,8 @@
 
   <img alt="License" src="https://img.shields.io/github/license/ElaineDelgado/album-app?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/ElaineDelgado/album-app?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/ElaineDelgado/album-app?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/ElaineDelgado/album-app?color=56BEB8" /> -->
 </p>
 
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  Album App 🚀 Under construction...  🚧
-</h4> 
 
 <hr> -->
 
@@ -46,23 +36,17 @@
 
 ## :dart: About ##
 
-Describe your project
-
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+Desafio do Curso de React B7Web utilizando uma Fake API de fotos do JSONPlaceholder para simular um álbum de fotos onde as fotos são carregadas através da requisição dessa API.
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [css](https://developer.mozilla.org/pt-BR/docs/Web/CSS) 
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
 
 ## :white_check_mark: Requirements ##
 
@@ -78,10 +62,10 @@ $ git clone https://github.com/ElaineDelgado/album-app
 $ cd album-app
 
 # Install dependencies
-$ yarn
+$ npm
 
 # Run the project
-$ yarn start
+$ npm start
 
 # The server will initialize in the <http://localhost:3000>
 ```
