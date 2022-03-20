@@ -2,8 +2,6 @@
   <img src="./.github/app.gif" alt="Album App" />
 
   &#xa0;
-
-  <!-- <a href="https://albumapp.netlify.app">Demo</a> -->
 </div>
 
 <h1 align="center">Album App</h1>
@@ -20,11 +18,10 @@
 </p>
 
 
-<hr> -->
+<hr> 
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
@@ -45,7 +42,7 @@ The following tools were used in this project:
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [css](https://developer.mozilla.org/pt-BR/docs/Web/CSS) 
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) 
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
 
 ## :white_check_mark: Requirements ##
