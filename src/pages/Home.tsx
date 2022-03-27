@@ -26,8 +26,9 @@ const Albums = () => {
       }
       {
       !loading && albums.length > 0 &&  
-      <div> 
-        <h1>Albums de Fotos</h1>
+      <div className="home-wrapper"> 
+        <h1>Photos Collections</h1>
+        <h2>Incredible photos from incredible people</h2>
         <hr />
         <article className="albums-container">
           {albums.map((item, index) => (

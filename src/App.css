@@ -1,22 +1,31 @@
+/* GERAL */
 body :not(p, a, h2, span) {
   color: aqua;
 }
 
 h1 {
-  margin: 35px 0;
+  margin: 30px 0 25px 0;
   text-align: center;
   color: #9b9b9b;
   text-transform: capitalize;
 }
 
+h2 {
+  color: #9b9b9b;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
 hr {
   border-color: #9b9b9b;
   width: 100%;
+  margin-bottom: 15px;
 }
 
 a {
   text-decoration: none;
-  margin:16px;
 }
 
 main.container {
@@ -26,11 +35,23 @@ main.container {
   justify-content: center;
 }
 
+/* HOME */
+
+div.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 article.albums-container {
   max-width: 95%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.albums-container a {
+  margin: 10px;
 }
 
 div.album {
@@ -45,7 +66,7 @@ div.album {
   /* min-height: 200px; */
 }
 
-/* pagina fotos (Album/id) */
+/* PAGINA ALBUM DE PHOTOS (album/id) */
 header.album-header {
   width: 100%;
   display: flex;
@@ -72,13 +93,24 @@ button.btn-voltar:hover {
 section.photos-container {
   display: flex;
   flex-wrap:wrap;
+  justify-content: center;  
 }
 
-/* Pagina foto individual*/
+/* PAGINA PHOTO INDIVIDUAL */
 section.foto-container {
   display: flex;
-  flex-direction: column;
+  justify-content:space-around;
   width: 100%;
+  padding: 15px;
+}
+
+header.photo-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 30%;
 }
 
 h1.photo-title {
@@ -90,7 +122,7 @@ h1.photo-title {
 }
 
 section.foto-container img {
-  max-width: 90vh;
+  /* max-width: 90vh; */
   align-self: center;
 }
 

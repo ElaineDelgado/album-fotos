@@ -32,7 +32,7 @@ const Photo = () => {
       
       {photo &&
       <section className="foto-container">
-        <header className="album-header">
+        <header className="photo-header">
           <h1 className="photo-title">{photo.title}</h1>
           <button className="btn-voltar" onClick={handleClick}>VOLTAR</button>
         </header>

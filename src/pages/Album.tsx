@@ -11,7 +11,7 @@ const Album = () => {
   const params = useParams()
   const [albumInfo, setAlbumInfo] = React.useState<AlbumsTypes>()
   const [photos, setPhotos] = React.useState<PhotosTypes[]>([])
-  const [load, setLoad] = React.useState(false)
+  const [loading, setLoading] = React.useState(false)
 
   React.useEffect(() => {
     if(params.id) {
@@ -21,10 +21,10 @@ const Album = () => {
   },[params.id])
 
   const getAllPhotos = async (id:string) => {
-    setLoad(true) 
+    setLoading(true) 
     const response = await api.getPhotos(id)
     setPhotos(response)
-    setLoad(false)
+    setLoading(false)
   }
 
   const getAlbum = async (id:string) => {
@@ -36,7 +36,7 @@ const Album = () => {
 
   return (
     <>
-        {load && <h3>Loading...</h3>}
+        {loading && <h3>Loading...</h3>}
         <header className="album-header">
           <h1 className="album-title">Album: {albumInfo?.title}</h1> 
           <button className="btn-voltar" onClick={handleClick}>VOLTAR</button>
