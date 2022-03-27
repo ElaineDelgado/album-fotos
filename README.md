@@ -6,18 +6,6 @@
 
 <h1 align="center">Album App</h1>
 
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/ElaineDelgado/album-app?color=56BEB8">
-
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/ElaineDelgado/album-app?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ElaineDelgado/album-app?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/ElaineDelgado/album-app?color=56BEB8">
-
-</p>
-
-
 <hr> 
 
 <p align="center">
