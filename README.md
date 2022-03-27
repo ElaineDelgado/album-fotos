@@ -1,8 +1,4 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Album App" />
 
-  &#xa0;
-</div>
 
 <h1 align="center">Album App</h1>
 
