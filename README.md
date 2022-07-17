@@ -20,6 +20,8 @@
 <p>Desafio do Curso de React B7Web utilizando uma Fake API de fotos do JSONPlaceholder para simular um álbum de fotos onde as fotos são carregadas através da requisição dessa API.</p>
 <p> As fotos estão dividas em álbuns, e estes dividos por usuários.</p>
 
+<h2>Veja funcionando aqui: <a href="https://albums-app.netlify.app" target="_blank">Photo Album</a></h2>
+
 <img src="https://i.imgur.com/sVIOtoK.png"/>
 
 ## :rocket: Tecnologias ##
