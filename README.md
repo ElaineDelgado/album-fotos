@@ -22,7 +22,15 @@
 
 <h2>Veja funcionando aqui: <a href="https://albums-app.netlify.app" target="_blank">Photo Album</a></h2>
 
-<img src="https://i.imgur.com/sVIOtoK.png"/>
+<h3>Página Inicial</h3>
+
+<img width="650px" src="https://i.imgur.com/sVIOtoK.png"/>
+
+<h3>Álbum específico do usuário 1 </h3>
+
+<img width="650px" src="https://i.imgur.com/lEWOXeV.png"/>
+
+
 
 ## :rocket: Tecnologias ##
 
