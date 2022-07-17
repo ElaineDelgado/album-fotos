@@ -17,7 +17,10 @@
 
 ## :dart: Sobre ##
 
-Desafio do Curso de React B7Web utilizando uma Fake API de fotos do JSONPlaceholder para simular um álbum de fotos onde as fotos são carregadas através da requisição dessa API.
+<p>Desafio do Curso de React B7Web utilizando uma Fake API de fotos do JSONPlaceholder para simular um álbum de fotos onde as fotos são carregadas através da requisição dessa API.</p>
+<p> As fotos estão dividas em álbuns, e estes dividos por usuários.</p>
+
+<img src="https://i.imgur.com/sVIOtoK.png"/>
 
 ## :rocket: Tecnologias ##
 
